@@ -15,23 +15,26 @@ import './App.css';
 import { useStateContext } from './contexts/ContextProvider';
 
 const App = () => {
-    const { activeMenu } = useStateContext();
+    const { 
+      setCurrentColor, setCurrentMode,
+      currentMode, activeMenu, 
+      themeSettings, currentColor,
+      setThemeSettings 
+    } = useStateContext();
 //   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
 
-
-//   useEffect(() => {
-//     const currentThemeColor = localStorage.getItem('colorMode');
-//     const currentThemeMode = localStorage.getItem('themeMode');
-//     if (currentThemeColor && currentThemeMode) {
-//       setCurrentColor(currentThemeColor);
-//       setCurrentMode(currentThemeMode);
-//     }
-//   }, []);
+  useEffect(() => {
+    const currentThemeColor = localStorage.getItem('colorMode');
+    const currentThemeMode = localStorage.getItem('themeMode');
+    if (currentThemeColor && currentThemeMode) {
+      setCurrentColor(currentThemeColor);
+      setCurrentMode(currentThemeMode);
+    }
+  }, []);
 
   return (
-    // <div className={currentMode === 'Dark' ? 'dark' : ''}>
-        
-    <div>
+    <div className={currentMode === 'Dark' ? 'dark' : ''}>        
+    {/* <div> */}
 
       <BrowserRouter>
         <div className="flex relative dark:bg-main-dark-bg">
@@ -42,9 +45,9 @@ const App = () => {
             >
               <button
                 type="button"
-                // onClick={() => setThemeSettings(true)}
-                // style={{ background: currentColor, borderRadius: '50%' }}
-                style={{ background: 'blue', borderRadius: '50%' }}
+                onClick={() => setThemeSettings(true)}
+                style={{ background: currentColor, borderRadius: '50%' }}
+                // style={{ background: 'blue', borderRadius: '50%' }}
                 className="text-3xl text-white p-3 hover:drop-shadow-xl hover:bg-light-gray"
               >
                 <FiSettings />
@@ -74,7 +77,7 @@ const App = () => {
               <Navbar />
             </div>
             <div>
-              {/* {themeSettings && (<ThemeSettings />)} */}
+              {themeSettings && (<ThemeSettings />)}
 
               <Routes>
                 {/* dashboard  */}
