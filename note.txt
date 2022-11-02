@@ -9,3 +9,4 @@ Links:
 
     3)  Atalho
     ctrl + w to close file
+    ctrl + alt + up or down flesh to select
