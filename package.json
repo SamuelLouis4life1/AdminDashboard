@@ -2,7 +2,7 @@
   "name": "reactadmindashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SamuelLouis4life1.github.io",
+  "homepage": "https://SamuelLouis4life1.github.io/reactadmindashboard",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
   "dependencies": {

@@ -5,3 +5,4 @@ Links:
     2) https://samuellouis4life1.github.io/reactadmindashboard/
     https://gist.github.com/adrianhajdin/7d0eea1cbab4ab21a69dc8c2faf9b831#file-tailwind-config-js
     https://github.com/adrianhajdin/project_syncfusion_dashboard/tree/main/src
+    https://shoppy-dashboard.vercel.app/employees
