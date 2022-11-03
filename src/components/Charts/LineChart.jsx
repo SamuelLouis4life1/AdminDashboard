@@ -4,6 +4,7 @@ import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Lin
 import { lineCustomSeries, LinePrimaryXAxis, LinePrimaryYAxis } from '../../data/dummy';
 import { useStateContext } from '../../contexts/ContextProvider';
 
+// Line chart implemented earlier
 const LineChart = () => {
   const { currentMode } = useStateContext();
 

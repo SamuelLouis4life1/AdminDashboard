@@ -3068,6 +3068,15 @@ export const lineChartData = [
     { x: new Date(2010, 0, 1), y: 70 },
     { x: new Date(2011, 0, 1), y: 100 },
   ],
+  [
+    { x: new Date(2005, 0, 1), y: 15 },
+    { x: new Date(2006, 0, 1), y: 40 },
+    { x: new Date(2007, 0, 1), y: 60 },
+    { x: new Date(2008, 0, 1), y: 20 },
+    { x: new Date(2009, 0, 1), y: 70 },
+    { x: new Date(2010, 0, 1), y: 90 },
+    { x: new Date(2011, 0, 1), y: 100 },
+  ]
 ];
 export const dropdownData = [
   {
@@ -3098,7 +3107,8 @@ export const lineCustomSeries = [
     name: 'Germany',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
-    type: 'Line' },
+    type: 'Line' 
+  },
 
   { dataSource: lineChartData[1],
     xName: 'x',
@@ -3106,7 +3116,8 @@ export const lineCustomSeries = [
     name: 'England',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
-    type: 'Line' },
+    type: 'Line' 
+  },
 
   { dataSource: lineChartData[2],
     xName: 'x',
@@ -3114,7 +3125,16 @@ export const lineCustomSeries = [
     name: 'India',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
-    type: 'Line' },
+    type: 'Line' 
+  },
+  { dataSource: lineChartData[3],
+    xName: 'x',
+    yName: 'y',
+    name: 'Brazil',
+    width: '2',
+    marker: { visible: true, width: 10, height: 10 },
+    type: 'Line' 
+  }
 
 ];
 
