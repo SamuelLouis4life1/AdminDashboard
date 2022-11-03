@@ -21,7 +21,6 @@ const App = () => {
       themeSettings, currentColor,
       setThemeSettings 
     } = useStateContext();
-//   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
 
   useEffect(() => {
     const currentThemeColor = localStorage.getItem('colorMode');
@@ -34,7 +33,6 @@ const App = () => {
 
   return (
     <div className={currentMode === 'Dark' ? 'dark' : ''}>        
-    {/* <div> */}
 
       <BrowserRouter>
         <div className="flex relative dark:bg-main-dark-bg">
@@ -47,7 +45,6 @@ const App = () => {
                 type="button"
                 onClick={() => setThemeSettings(true)}
                 style={{ background: currentColor, borderRadius: '50%' }}
-                // style={{ background: 'blue', borderRadius: '50%' }}
                 className="text-3xl text-white p-3 hover:drop-shadow-xl hover:bg-light-gray"
               >
                 <FiSettings />
