@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactadmindashboard/static/css/main.03708ed1.css",
-    "main.js": "/reactadmindashboard/static/js/main.b8b46466.js",
+    "main.css": "/reactadmindashboard/static/css/main.be5f070d.css",
+    "main.js": "/reactadmindashboard/static/js/main.35ab57e1.js",
     "static/media/product4.jpg": "/reactadmindashboard/static/media/product4.767417bea17688d6d8ce.jpg",
     "static/media/product2.jpg": "/reactadmindashboard/static/media/product2.e93f12ec1b20980a1bd1.jpg",
     "static/media/product1.jpg": "/reactadmindashboard/static/media/product1.b8efc7a24c281ed8911b.jpg",
@@ -15,11 +15,11 @@
     "static/media/avatar4.jpg": "/reactadmindashboard/static/media/avatar4.f56b774f77caaf2f6921.jpg",
     "static/media/product5.jpg": "/reactadmindashboard/static/media/product5.f4c5d8f991b753ca0fcc.jpg",
     "index.html": "/reactadmindashboard/index.html",
-    "main.03708ed1.css.map": "/reactadmindashboard/static/css/main.03708ed1.css.map",
-    "main.b8b46466.js.map": "/reactadmindashboard/static/js/main.b8b46466.js.map"
+    "main.be5f070d.css.map": "/reactadmindashboard/static/css/main.be5f070d.css.map",
+    "main.35ab57e1.js.map": "/reactadmindashboard/static/js/main.35ab57e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.03708ed1.css",
-    "static/js/main.b8b46466.js"
+    "static/css/main.be5f070d.css",
+    "static/js/main.35ab57e1.js"
   ]
 }
