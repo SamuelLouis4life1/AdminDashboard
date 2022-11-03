@@ -1,0 +1,17 @@
+Links: 
+    1) github pages example
+    https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/
+
+    2) https://samuellouis4life1.github.io/reactadmindashboard/
+    https://gist.github.com/adrianhajdin/7d0eea1cbab4ab21a69dc8c2faf9b831#file-tailwind-config-js
+    https://github.com/adrianhajdin/project_syncfusion_dashboard/tree/main/src
+    https://www.youtube.com/watch?v=jx5hdo50a2M&t=235s
+    https://shoppy-dashboard.vercel.app/employees
+
+    3)  Atalho
+    ctrl + w to close file
+    ctrl + alt + up or down flesh to select
+
+    4) To study
+    Arrow function
+    arroy function component
