@@ -1,3 +1,18 @@
+# Demo Project
+See the all complete project [react admindash board](https://samuellouis4life1.github.io/reactadmindashboard/)
+
+### Print Screen
+
+### Home page
+![image_1](https://user-images.githubusercontent.com/43389948/199717640-303edabf-7cfe-4b0d-94a4-c4bdfbc38191.png)
+
+### Oders page
+![image_2](https://user-images.githubusercontent.com/43389948/199717669-26da2b2a-1803-4ca5-8a1b-1f591bc59e0a.png)
+
+### Customers page
+![image_3](https://user-images.githubusercontent.com/43389948/199720645-94403a7e-e340-4350-8124-a1ee362dba3b.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
